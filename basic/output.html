@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo">JavaScript can change HTML content.</p>
+<script>
+    // document.write after statement replace everything
+    document.write('Never write document.write after content load otherwise it will remove all content')
+    console.log('Javascript console log')
+</script>
+<button onclick="document.getElementById('demo').innerHTML = 'Change Javascript content.'">Click for content change</button>
+<button onclick="window.alert('Alert display message')">Alert</button>
+<button onclick="window.print()">Print</button>
+</body>
+</html>
